@@ -39,7 +39,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 2vmin;
+      height: 100%; /* 高さを100%にする */
+      width: 100%; /* 幅を100%にする */
     }
 
     /* 右側：時計部分 */
@@ -56,8 +57,8 @@
       grid-template-columns: repeat(4, 80px);
       grid-template-rows: repeat(4, 80px);
       gap: 1vmin;
-      width: 80%;  /* 余白ができるように調整 */
-      height: 80%; /* 余白ができるように調整 */
+      width: 80%; /* 幅を調整 */
+      height: 80%; /* 高さを調整 */
       justify-items: center;
       align-items: center;
     }
